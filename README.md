@@ -190,25 +190,10 @@ The repository includes a Streamlit web application for practical deployment of 
 - Access reference images for different defect types
 - Get explanations for detected defects
 
-![Web App Screenshot]<img src="https://github.com/Sahilsonii/images/blob/main/perovskite%20solar%20cell/1.png" alt="PSC Defect Detection" width="600" />
-![Web App Screenshot](https://raw.githubusercontent.com/username/repository/main/images/webapp_screenshot.png)
-![Web App Screenshot](https://raw.githubusercontent.com/username/repository/main/images/webapp_screenshot.png)
-![Web App Screenshot](https://raw.githubusercontent.com/username/repository/main/images/webapp_screenshot.png)
-
-## 📚 Citation
-
-If you use this code or dataset in your research, please cite:
-
-```
-@article{author2025comprehensive,
-  title={Comprehensive Multi-Model Deep Learning Framework for Automated Defect Detection in Perovskite Solar Cell SEM Images},
-  author={Author, A.},
-  journal={Journal Name},
-  year={2025},
-  volume={},
-  pages={}
-}
-```
+<img src="https://github.com/Sahilsonii/images/blob/main/perovskite%20solar%20cell/1.png" alt="PSC Defect Detection" width="600" />
+<img src="https://github.com/Sahilsonii/images/blob/main/perovskite%20solar%20cell/2.png" alt="PSC Defect Detection" width="600" />
+<img src="https://github.com/Sahilsonii/images/blob/main/perovskite%20solar%20cell/3.png" alt="PSC Defect Detection" width="600" />
+<img src="https://github.com/Sahilsonii/images/blob/main/perovskite%20solar%20cell/4.png" alt="PSC Defect Detection" width="600" />
 
 ## 🛠️ Future Work
 

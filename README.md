@@ -190,7 +190,7 @@ The repository includes a Streamlit web application for practical deployment of 
 - Access reference images for different defect types
 - Get explanations for detected defects
 
-![Web App Screenshot]([https://raw.githubusercontent.com/username/repository/main/images/webapp_screenshot.png](https://github.com/Sahilsonii/images/blob/main/perovskite%20solar%20cell/1.png))
+![Web App Screenshot]<img src="https://github.com/Sahilsonii/images/blob/main/perovskite%20solar%20cell/1.png" alt="PSC Defect Detection" width="600" />
 ![Web App Screenshot](https://raw.githubusercontent.com/username/repository/main/images/webapp_screenshot.png)
 ![Web App Screenshot](https://raw.githubusercontent.com/username/repository/main/images/webapp_screenshot.png)
 ![Web App Screenshot](https://raw.githubusercontent.com/username/repository/main/images/webapp_screenshot.png)

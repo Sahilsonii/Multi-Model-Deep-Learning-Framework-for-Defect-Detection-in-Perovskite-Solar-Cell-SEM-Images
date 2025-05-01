@@ -1,0 +1,170 @@
+2025-04-22 10:18:48,344 - PerovskiteMultiModelTrainer - INFO - GPU memory growth enabled
+2025-04-22 10:18:48,344 - PerovskiteMultiModelTrainer - INFO - Created directories: c:\Users\ASUS\Desktop\New folder (2)\visualizations, c:\Users\ASUS\Desktop\New folder (2)\models, c:\Users\ASUS\Desktop\New folder (2)\results
+2025-04-22 10:18:48,344 - PerovskiteMultiModelTrainer - INFO - Starting training run 20250422_101848
+2025-04-22 10:18:48,344 - PerovskiteMultiModelTrainer - INFO - TensorFlow version: 2.10.1
+2025-04-22 10:18:48,344 - PerovskiteMultiModelTrainer - INFO - GPU Available: True
+2025-04-22 10:18:48,347 - PerovskiteMultiModelTrainer - INFO - GPU Devices: [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+2025-04-22 10:18:48,347 - PerovskiteMultiModelTrainer - INFO - Training parameters saved to c:\Users\ASUS\Desktop\New folder (2)\results\training_info_20250422_101848.json
+2025-04-22 10:18:48,421 - PerovskiteMultiModelTrainer - INFO - Found 452 images in Training/3D perovskite with extensions: ['.bmp', '.jpg', '.tif']
+2025-04-22 10:18:48,473 - PerovskiteMultiModelTrainer - INFO - Found 452 images in Training/3D perovskite with PbI2 excess with extensions: ['.jpg', '.tif']
+2025-04-22 10:18:48,522 - PerovskiteMultiModelTrainer - INFO - Found 452 images in Training/3D perovskite with pinholes with extensions: ['.bmp', '.jpg', '.tif']
+2025-04-22 10:18:48,571 - PerovskiteMultiModelTrainer - INFO - Found 452 images in Training/3D-2D mixed perovskite with extensions: ['.bmp', '.jpg', '.tif']
+2025-04-22 10:18:48,621 - PerovskiteMultiModelTrainer - INFO - Found 452 images in Training/3D-2D mixed perovskite with pinholes with extensions: ['.jpg']
+2025-04-22 10:18:48,622 - PerovskiteMultiModelTrainer - INFO - Found 12 images in Validation/3D perovskite with extensions: ['.tif']
+2025-04-22 10:18:48,630 - PerovskiteMultiModelTrainer - INFO - Found 12 images in Validation/3D perovskite with PbI2 excess with extensions: ['.tif']
+2025-04-22 10:18:48,634 - PerovskiteMultiModelTrainer - INFO - Found 12 images in Validation/3D perovskite with pinholes with extensions: ['.tif']
+2025-04-22 10:18:48,634 - PerovskiteMultiModelTrainer - INFO - Found 12 images in Validation/3D-2D mixed perovskite with extensions: ['.tif']
+2025-04-22 10:18:48,641 - PerovskiteMultiModelTrainer - INFO - Found 12 images in Validation/3D-2D mixed perovskite with pinholes with extensions: ['.jpg']
+2025-04-22 10:18:48,642 - PerovskiteMultiModelTrainer - INFO - Found 12 images in Testing/3D perovskite with extensions: ['.tif']
+2025-04-22 10:18:48,650 - PerovskiteMultiModelTrainer - INFO - Found 12 images in Testing/3D perovskite with PbI2 excess with extensions: ['.bmp', '.tif']
+2025-04-22 10:18:48,652 - PerovskiteMultiModelTrainer - INFO - Found 12 images in Testing/3D perovskite with pinholes with extensions: ['.bmp', '.tif']
+2025-04-22 10:18:48,658 - PerovskiteMultiModelTrainer - INFO - Found 12 images in Testing/3D-2D mixed perovskite with extensions: ['.tif']
+2025-04-22 10:18:48,661 - PerovskiteMultiModelTrainer - INFO - Found 12 images in Testing/3D-2D mixed perovskite with pinholes with extensions: ['.jpg', '.tif']
+2025-04-22 10:18:48,661 - PerovskiteMultiModelTrainer - INFO - All dataset directories verified successfully
+2025-04-22 10:18:48,661 - PerovskiteMultiModelTrainer - INFO - Creating data generators with batch_size=8...
+2025-04-22 10:18:48,882 - PerovskiteMultiModelTrainer - INFO - Class Indices:
+2025-04-22 10:18:48,882 - PerovskiteMultiModelTrainer - INFO - 0: 3D perovskite
+2025-04-22 10:18:48,882 - PerovskiteMultiModelTrainer - INFO - 1: 3D perovskite with PbI2 excess
+2025-04-22 10:18:48,882 - PerovskiteMultiModelTrainer - INFO - 2: 3D perovskite with pinholes
+2025-04-22 10:18:48,882 - PerovskiteMultiModelTrainer - INFO - 3: 3D-2D mixed perovskite
+2025-04-22 10:18:48,882 - PerovskiteMultiModelTrainer - INFO - 4: 3D-2D mixed perovskite with pinholes
+2025-04-22 10:18:48,882 - PerovskiteMultiModelTrainer - INFO - Dataset Statistics:
+2025-04-22 10:18:48,882 - PerovskiteMultiModelTrainer - INFO - Training samples: 2260
+2025-04-22 10:18:48,882 - PerovskiteMultiModelTrainer - INFO - Validation samples: 60
+2025-04-22 10:18:48,882 - PerovskiteMultiModelTrainer - INFO - Test samples: 60
+2025-04-22 10:18:48,882 - PerovskiteMultiModelTrainer - INFO - Number of classes: 5
+2025-04-22 10:18:48,889 - PerovskiteMultiModelTrainer - INFO - Starting multi-model training...
+2025-04-22 10:18:48,891 - PerovskiteMultiModelTrainer - INFO - 
+==================================================
+2025-04-22 10:18:48,891 - PerovskiteMultiModelTrainer - INFO - Training VisionTransformer
+2025-04-22 10:18:48,891 - PerovskiteMultiModelTrainer - INFO - ==================================================
+2025-04-22 10:18:48,891 - PerovskiteMultiModelTrainer - INFO - Creating data generators with batch_size=8...
+2025-04-22 10:18:49,092 - PerovskiteMultiModelTrainer - INFO - Class Indices:
+2025-04-22 10:18:49,092 - PerovskiteMultiModelTrainer - INFO - 0: 3D perovskite
+2025-04-22 10:18:49,092 - PerovskiteMultiModelTrainer - INFO - 1: 3D perovskite with PbI2 excess
+2025-04-22 10:18:49,092 - PerovskiteMultiModelTrainer - INFO - 2: 3D perovskite with pinholes
+2025-04-22 10:18:49,092 - PerovskiteMultiModelTrainer - INFO - 3: 3D-2D mixed perovskite
+2025-04-22 10:18:49,092 - PerovskiteMultiModelTrainer - INFO - 4: 3D-2D mixed perovskite with pinholes
+2025-04-22 10:18:49,100 - PerovskiteMultiModelTrainer - INFO - Dataset Statistics:
+2025-04-22 10:18:49,100 - PerovskiteMultiModelTrainer - INFO - Training samples: 2260
+2025-04-22 10:18:49,100 - PerovskiteMultiModelTrainer - INFO - Validation samples: 60
+2025-04-22 10:18:49,100 - PerovskiteMultiModelTrainer - INFO - Test samples: 60
+2025-04-22 10:18:49,100 - PerovskiteMultiModelTrainer - INFO - Number of classes: 5
+2025-04-22 10:18:49,100 - PerovskiteMultiModelTrainer - INFO - Creating VisionTransformer model...
+2025-04-22 10:18:50,560 - PerovskiteMultiModelTrainer - INFO - VisionTransformer model created with 429,637 parameters
+2025-04-22 10:18:50,561 - PerovskiteMultiModelTrainer - INFO - Created callbacks for VisionTransformer
+2025-04-22 10:18:51,021 - PerovskiteMultiModelTrainer - INFO - Batch shape: (8, 224, 224, 3), Labels shape: (8, 5)
+2025-04-22 10:18:51,021 - PerovskiteMultiModelTrainer - INFO - Starting initial training for VisionTransformer...
+2025-04-22 10:31:45,082 - PerovskiteMultiModelTrainer - INFO - Loading best weights from c:\Users\ASUS\Desktop\New folder (2)\models\VisionTransformer_20250422_101848.h5
+2025-04-22 10:31:46,039 - PerovskiteMultiModelTrainer - INFO - Evaluating VisionTransformer on test set...
+2025-04-22 10:31:46,951 - PerovskiteMultiModelTrainer - INFO - VisionTransformer Test accuracy: 0.3167
+2025-04-22 10:31:46,951 - PerovskiteMultiModelTrainer - INFO - VisionTransformer Test loss: 1.5576
+2025-04-22 10:31:47,819 - PerovskiteMultiModelTrainer - INFO - VisionTransformer training completed in 778.93 seconds
+2025-04-22 10:31:47,819 - PerovskiteMultiModelTrainer - INFO - Test Accuracy: 0.3167, F1-Score (weighted): 0.2225
+2025-04-22 10:31:47,916 - PerovskiteMultiModelTrainer - INFO - Memory cleared after training VisionTransformer
+2025-04-22 10:31:47,918 - PerovskiteMultiModelTrainer - INFO - 
+==================================================
+2025-04-22 10:31:47,918 - PerovskiteMultiModelTrainer - INFO - Training CoCa
+2025-04-22 10:31:47,918 - PerovskiteMultiModelTrainer - INFO - ==================================================
+2025-04-22 10:31:47,918 - PerovskiteMultiModelTrainer - INFO - Creating data generators with batch_size=8...
+2025-04-22 10:31:48,011 - PerovskiteMultiModelTrainer - INFO - Class Indices:
+2025-04-22 10:31:48,011 - PerovskiteMultiModelTrainer - INFO - 0: 3D perovskite
+2025-04-22 10:31:48,011 - PerovskiteMultiModelTrainer - INFO - 1: 3D perovskite with PbI2 excess
+2025-04-22 10:31:48,011 - PerovskiteMultiModelTrainer - INFO - 2: 3D perovskite with pinholes
+2025-04-22 10:31:48,011 - PerovskiteMultiModelTrainer - INFO - 3: 3D-2D mixed perovskite
+2025-04-22 10:31:48,012 - PerovskiteMultiModelTrainer - INFO - 4: 3D-2D mixed perovskite with pinholes
+2025-04-22 10:31:48,012 - PerovskiteMultiModelTrainer - INFO - Dataset Statistics:
+2025-04-22 10:31:48,012 - PerovskiteMultiModelTrainer - INFO - Training samples: 2260
+2025-04-22 10:31:48,012 - PerovskiteMultiModelTrainer - INFO - Validation samples: 60
+2025-04-22 10:31:48,012 - PerovskiteMultiModelTrainer - INFO - Test samples: 60
+2025-04-22 10:31:48,012 - PerovskiteMultiModelTrainer - INFO - Number of classes: 5
+2025-04-22 10:31:48,012 - PerovskiteMultiModelTrainer - INFO - Creating CoCa model...
+2025-04-22 10:31:48,492 - PerovskiteMultiModelTrainer - INFO - CoCa model created with 19,176,709 parameters
+2025-04-22 10:31:48,493 - PerovskiteMultiModelTrainer - INFO - Created callbacks for CoCa
+2025-04-22 10:31:48,570 - PerovskiteMultiModelTrainer - INFO - Batch shape: (8, 224, 224, 3), Labels shape: (8, 5)
+2025-04-22 10:31:48,570 - PerovskiteMultiModelTrainer - INFO - Starting initial training for CoCa...
+2025-04-22 10:39:57,800 - PerovskiteMultiModelTrainer - INFO - Loading best weights from c:\Users\ASUS\Desktop\New folder (2)\models\CoCa_20250422_101848.h5
+2025-04-22 10:39:58,417 - PerovskiteMultiModelTrainer - INFO - Evaluating CoCa on test set...
+2025-04-22 10:39:58,753 - PerovskiteMultiModelTrainer - INFO - CoCa Test accuracy: 0.3500
+2025-04-22 10:39:58,754 - PerovskiteMultiModelTrainer - INFO - CoCa Test loss: 1.6591
+2025-04-22 10:39:59,864 - PerovskiteMultiModelTrainer - INFO - CoCa training completed in 491.95 seconds
+2025-04-22 10:39:59,864 - PerovskiteMultiModelTrainer - INFO - Test Accuracy: 0.3500, F1-Score (weighted): 0.3242
+2025-04-22 10:40:00,068 - PerovskiteMultiModelTrainer - INFO - Memory cleared after training CoCa
+2025-04-22 10:40:00,070 - PerovskiteMultiModelTrainer - INFO - 
+==================================================
+2025-04-22 10:40:00,070 - PerovskiteMultiModelTrainer - INFO - Training YOLOv9
+2025-04-22 10:40:00,070 - PerovskiteMultiModelTrainer - INFO - ==================================================
+2025-04-22 10:40:00,070 - PerovskiteMultiModelTrainer - INFO - Creating data generators with batch_size=8...
+2025-04-22 10:40:00,193 - PerovskiteMultiModelTrainer - INFO - Class Indices:
+2025-04-22 10:40:00,193 - PerovskiteMultiModelTrainer - INFO - 0: 3D perovskite
+2025-04-22 10:40:00,193 - PerovskiteMultiModelTrainer - INFO - 1: 3D perovskite with PbI2 excess
+2025-04-22 10:40:00,193 - PerovskiteMultiModelTrainer - INFO - 2: 3D perovskite with pinholes
+2025-04-22 10:40:00,193 - PerovskiteMultiModelTrainer - INFO - 3: 3D-2D mixed perovskite
+2025-04-22 10:40:00,193 - PerovskiteMultiModelTrainer - INFO - 4: 3D-2D mixed perovskite with pinholes
+2025-04-22 10:40:00,193 - PerovskiteMultiModelTrainer - INFO - Dataset Statistics:
+2025-04-22 10:40:00,193 - PerovskiteMultiModelTrainer - INFO - Training samples: 2260
+2025-04-22 10:40:00,193 - PerovskiteMultiModelTrainer - INFO - Validation samples: 60
+2025-04-22 10:40:00,193 - PerovskiteMultiModelTrainer - INFO - Test samples: 60
+2025-04-22 10:40:00,193 - PerovskiteMultiModelTrainer - INFO - Number of classes: 5
+2025-04-22 10:40:00,193 - PerovskiteMultiModelTrainer - INFO - Creating YOLOv9 model...
+2025-04-22 10:40:01,415 - PerovskiteMultiModelTrainer - INFO - YOLOv9 model created with 20,057,989 parameters
+2025-04-22 10:40:01,415 - PerovskiteMultiModelTrainer - INFO - Created callbacks for YOLOv9
+2025-04-22 10:40:01,510 - PerovskiteMultiModelTrainer - INFO - Batch shape: (8, 224, 224, 3), Labels shape: (8, 5)
+2025-04-22 10:40:01,512 - PerovskiteMultiModelTrainer - INFO - Starting initial training for YOLOv9...
+2025-04-22 10:47:47,781 - PerovskiteMultiModelTrainer - INFO - Loading best weights from c:\Users\ASUS\Desktop\New folder (2)\models\YOLOv9_20250422_101848.h5
+2025-04-22 10:47:48,447 - PerovskiteMultiModelTrainer - INFO - Evaluating YOLOv9 on test set...
+2025-04-22 10:47:48,798 - PerovskiteMultiModelTrainer - INFO - YOLOv9 Test accuracy: 0.4500
+2025-04-22 10:47:48,798 - PerovskiteMultiModelTrainer - INFO - YOLOv9 Test loss: 1.5428
+2025-04-22 10:47:50,187 - PerovskiteMultiModelTrainer - INFO - YOLOv9 training completed in 470.12 seconds
+2025-04-22 10:47:50,187 - PerovskiteMultiModelTrainer - INFO - Test Accuracy: 0.4500, F1-Score (weighted): 0.4107
+2025-04-22 10:47:50,473 - PerovskiteMultiModelTrainer - INFO - Memory cleared after training YOLOv9
+2025-04-22 10:47:50,474 - PerovskiteMultiModelTrainer - INFO - 
+==================================================
+2025-04-22 10:47:50,474 - PerovskiteMultiModelTrainer - INFO - Training InceptionV3
+2025-04-22 10:47:50,474 - PerovskiteMultiModelTrainer - INFO - ==================================================
+2025-04-22 10:47:50,474 - PerovskiteMultiModelTrainer - INFO - Creating data generators with batch_size=1...
+2025-04-22 10:47:50,586 - PerovskiteMultiModelTrainer - INFO - Class Indices:
+2025-04-22 10:47:50,586 - PerovskiteMultiModelTrainer - INFO - 0: 3D perovskite
+2025-04-22 10:47:50,588 - PerovskiteMultiModelTrainer - INFO - 1: 3D perovskite with PbI2 excess
+2025-04-22 10:47:50,588 - PerovskiteMultiModelTrainer - INFO - 2: 3D perovskite with pinholes
+2025-04-22 10:47:50,588 - PerovskiteMultiModelTrainer - INFO - 3: 3D-2D mixed perovskite
+2025-04-22 10:47:50,588 - PerovskiteMultiModelTrainer - INFO - 4: 3D-2D mixed perovskite with pinholes
+2025-04-22 10:47:50,588 - PerovskiteMultiModelTrainer - INFO - Dataset Statistics:
+2025-04-22 10:47:50,588 - PerovskiteMultiModelTrainer - INFO - Training samples: 2260
+2025-04-22 10:47:50,589 - PerovskiteMultiModelTrainer - INFO - Validation samples: 60
+2025-04-22 10:47:50,589 - PerovskiteMultiModelTrainer - INFO - Test samples: 60
+2025-04-22 10:47:50,589 - PerovskiteMultiModelTrainer - INFO - Number of classes: 5
+2025-04-22 10:47:50,589 - PerovskiteMultiModelTrainer - INFO - Creating InceptionV3 model...
+2025-04-22 10:47:53,037 - PerovskiteMultiModelTrainer - INFO - InceptionV3 model created with 24,164,645 parameters
+2025-04-22 10:47:53,038 - PerovskiteMultiModelTrainer - INFO - Created callbacks for InceptionV3
+2025-04-22 10:47:53,051 - PerovskiteMultiModelTrainer - INFO - Batch shape: (1, 224, 224, 3), Labels shape: (1, 5)
+2025-04-22 10:47:53,053 - PerovskiteMultiModelTrainer - INFO - Starting initial training for InceptionV3...
+2025-04-22 12:01:07,040 - PerovskiteMultiModelTrainer - INFO - Loading best weights from c:\Users\ASUS\Desktop\New folder (2)\models\InceptionV3_20250422_101848.h5
+2025-04-22 12:01:07,845 - PerovskiteMultiModelTrainer - INFO - Evaluating InceptionV3 on test set...
+2025-04-22 12:01:08,676 - PerovskiteMultiModelTrainer - INFO - InceptionV3 Test accuracy: 0.1667
+2025-04-22 12:01:08,676 - PerovskiteMultiModelTrainer - INFO - InceptionV3 Test loss: 1.6439
+2025-04-22 12:01:10,321 - PerovskiteMultiModelTrainer - INFO - InceptionV3 training completed in 4399.85 seconds
+2025-04-22 12:01:10,322 - PerovskiteMultiModelTrainer - INFO - Test Accuracy: 0.1667, F1-Score (weighted): 0.0597
+2025-04-22 12:01:10,951 - PerovskiteMultiModelTrainer - INFO - Memory cleared after training InceptionV3
+2025-04-22 12:01:10,952 - PerovskiteMultiModelTrainer - INFO - Comparing model performance...
+2025-04-22 12:01:16,324 - PerovskiteMultiModelTrainer - INFO - PDF report generated: c:\Users\ASUS\Desktop\New folder (2)\results\perovskite_model_report_20250422_101848.pdf
+2025-04-22 12:01:16,325 - PerovskiteMultiModelTrainer - INFO - 
+==================================================
+2025-04-22 12:01:16,325 - PerovskiteMultiModelTrainer - INFO - MODEL COMPARISON RESULTS
+2025-04-22 12:01:16,325 - PerovskiteMultiModelTrainer - INFO - ==================================================
+2025-04-22 12:01:16,325 - PerovskiteMultiModelTrainer - INFO - 
+Detailed results saved to: c:\Users\ASUS\Desktop\New folder (2)\results\model_comparison_detailed_20250422_101848.csv
+2025-04-22 12:01:16,326 - PerovskiteMultiModelTrainer - INFO - Summary results saved to: c:\Users\ASUS\Desktop\New folder (2)\results\model_comparison_summary_20250422_101848.csv
+2025-04-22 12:01:16,326 - PerovskiteMultiModelTrainer - INFO - Combined performance plot: c:\Users\ASUS\Desktop\New folder (2)\results\combined_performance_20250422_101848.png
+2025-04-22 12:01:16,326 - PerovskiteMultiModelTrainer - INFO - PDF report: c:\Users\ASUS\Desktop\New folder (2)\results\perovskite_model_report_20250422_101848.pdf
+2025-04-22 12:01:16,326 - PerovskiteMultiModelTrainer - INFO - 
+Top performing models:
+2025-04-22 12:01:16,326 - PerovskiteMultiModelTrainer - INFO - 1. YOLOv9: Accuracy = 0.4500, F1 = 0.4107
+2025-04-22 12:01:16,326 - PerovskiteMultiModelTrainer - INFO - 2. CoCa: Accuracy = 0.3500, F1 = 0.3242
+2025-04-22 12:01:16,326 - PerovskiteMultiModelTrainer - INFO - 3. VisionTransformer: Accuracy = 0.3167, F1 = 0.2225
+2025-04-22 12:01:16,326 - PerovskiteMultiModelTrainer - INFO - ==================================================
+2025-04-22 12:01:16,328 - PerovskiteMultiModelTrainer - INFO - Best model: YOLOv9
+2025-04-22 12:01:16,328 - PerovskiteMultiModelTrainer - INFO - Model saved at: c:\Users\ASUS\Desktop\New folder (2)\models\YOLOv9_20250422_101848.h5
+2025-04-22 12:01:16,328 - PerovskiteMultiModelTrainer - INFO - ==================================================
+2025-04-22 12:01:16,501 - PerovskiteMultiModelTrainer - INFO - Total execution time: 1h 42m 28s
+2025-04-22 12:01:16,502 - PerovskiteMultiModelTrainer - INFO - Multi-model training completed successfully.

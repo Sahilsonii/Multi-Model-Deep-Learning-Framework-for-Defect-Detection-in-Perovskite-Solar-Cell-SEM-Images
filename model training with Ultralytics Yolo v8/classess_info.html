@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Perovskite Classes Overview</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(120deg, #fdfbfb, #ebedee);
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #282c34;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background-color: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    section:hover {
+      transform: scale(1.01);
+    }
+
+    h2 {
+      color: #2e86de;
+    }
+
+    p {
+      line-height: 1.6;
+      font-size: 1rem;
+    }
+
+    @media (max-width: 600px) {
+      section {
+        padding: 1rem;
+      }
+
+      h2 {
+        font-size: 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Perovskite Material Classes</h1>
+  <p>A brief explanation of the types used in classification</p>
+</header>
+
+<main>
+  <section>
+    <h2>3D Perovskite</h2>
+    <p>These SEM images show 3D perovskite materials with a surface that looks like a jigsaw puzzle, where each piece is a tiny crystal called a grain, and the lines between them are grain boundaries. It highlights these boundaries as clear, dark edges separating the grains, which appear as distinct, rounded patches. This structure is important because the boundaries can affect how well the material conducts electricity in solar cells—sometimes they help, but they can also trap energy if not managed well. Research shows that larger, well-defined grains often lead to better performance by reducing energy loss at the boundaries. The machine learning software will look for this puzzle-like pattern with visible grain edges to identify this category.This class refers to pure 3D crystalline structures of perovskite used in photovoltaic layers. They are known for high efficiency and good stability.</p>
+  </section>
+
+  <section>
+    <h2>3D Perovskite with PbI₂ Excess</h2>
+    <p>In this category, the SEM images of 3D perovskites still show grains and grain boundaries, but there are bright, white spots or particles scattered across the surface, like shiny sprinkles on a cupcake. Your slides note that these are a signature of excess lead iodide (PbI2), which forms reflective crystals on the grains and along their boundaries. PbI2 appears brighter in SEM images because it reflects more electrons, making it stand out against the darker grains. This excess can form during the material’s preparation and might reduce solar cell efficiency by blocking charge flow, though some studies suggest it can improve stability in certain conditions. The software will detect these bright, shiny spots alongside visible grains to classify this category.Contains traces of unreacted lead iodide (PbI₂), often indicating incomplete conversion during synthesis. This can impact performance and needs precise tuning.</p>
+  </section>
+
+  <section>
+    <h2>3D Perovskite with Pinholes</h2>
+    <p>These SEM images of 3D perovskites show grain boundaries, but the surface also has noticeable defects: cracks and holes called pinholes. It clears out that pinholes aren’t tiny dots—they’re larger craters or any visible see-through holes near the grain boundaries, looking like small, dark pits or gaps in the material, similar to bubbles in Swiss cheese. These defects can lower the material’s performance in solar cells by creating pathways for current leakage or reducing durability against moisture. Literature indicates pinholes often form due to uneven growth during fabrication and minimizing them is key for efficient devices. The software will identify this category by spotting these larger craters alongside the grain structure.This defect class features tiny voids or pinholes on the surface, which can lead to current leakage and reduced efficiency in solar cell applications.</p>
+  </section>
+
+  <section>
+    <h2>3D-2D Mixed Perovskite</h2>
+    <p>This category features SEM images of mixed 3D-2D perovskites with a smoother, layered look, like stacked sheets of flaky pastry. It can be described as a flake or vertical growth structure that covers the typical 3D perovskite grains and boundaries, making them hard to see. The surface appears more uniform, without the distinct grain edges or any pinholes, giving it a protective, layered appearance. This structure enhances stability, making the material more resistant to environmental factors like humidity, which is great for long-lasting solar cells. Research supports that 3D-2D mixed perovskites often perform better in harsh conditions due to this shielding effect. The software will recognize this category by the smooth, layered texture and absence of visible grain boundaries or holes.A blend of 3D and layered 2D perovskites, improving moisture resistance and enhancing film quality. They balance performance with durability.</p>
+  </section>
+
+  <section>
+    <h2>3D-2D Mixed Perovskite with Pinholes</h2>
+    <p>These SEM images are like the previous category, showing 3D-2D mixed perovskites with a flaky, layered structure that hides the grain boundaries, creating a smoother surface. However, to point out that this type has pinholes—small, dark craters or holes scattered across the layers, like tiny perforations in a sheet of dough. These holes can weaken the material’s performance by allowing moisture to seep in or disrupt electrical flow, despite the protective layers. Studies note that while 3D-2D structures improve stability, pinholes can still form due to processing flaws, making their detection important for quality control. The software will classify this category by detecting the layered structure combined with these visible pinholes.Mixed dimensional structures with visible pinhole defects. While structurally robust, these defects can still reduce functional surface area and efficiency.</p>
+  </section>
+</main>
+
+</body>
+</html>

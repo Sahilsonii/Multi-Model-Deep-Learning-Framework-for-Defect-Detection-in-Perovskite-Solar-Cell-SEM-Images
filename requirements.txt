@@ -1,0 +1,15 @@
+streamlit
+numpy>=1.22
+tensorflow==2.10.1
+protobuf==3.20.3
+pytorch
+opencv-python
+tqdm
+scikit-learn
+ultralytics
+tifffile
+keras
+pillow
+opencv-contrib-python-headless
+seaborn
+matplotlib

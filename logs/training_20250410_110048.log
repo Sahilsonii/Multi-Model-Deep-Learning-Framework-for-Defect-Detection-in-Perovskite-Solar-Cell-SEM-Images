@@ -1,0 +1,154 @@
+2025-04-10 11:00:48,216 - PerovskiteMultiModelTrainer - INFO - Created visualization directory: c:\Users\ASUS\Desktop\New folder (2)\visualizations
+2025-04-10 11:00:48,216 - PerovskiteMultiModelTrainer - INFO - Starting training run 20250410_110048
+2025-04-10 11:00:48,216 - PerovskiteMultiModelTrainer - INFO - TensorFlow version: 2.19.0
+2025-04-10 11:00:48,216 - PerovskiteMultiModelTrainer - INFO - GPU Available: False
+2025-04-10 11:00:48,216 - PerovskiteMultiModelTrainer - INFO - GPU Devices: []
+2025-04-10 11:00:48,216 - PerovskiteMultiModelTrainer - INFO - Training parameters saved to c:\Users\ASUS\Desktop\New folder (2)\results\training_info_20250410_110048.json
+2025-04-10 11:00:48,239 - PerovskiteMultiModelTrainer - INFO - Found 452 images in Training/3D perovskite with extensions: ['.bmp', '.jpg', '.tif']
+2025-04-10 11:00:48,260 - PerovskiteMultiModelTrainer - INFO - Found 452 images in Training/3D perovskite with PbI2 excess with extensions: ['.jpg', '.tif']
+2025-04-10 11:00:48,284 - PerovskiteMultiModelTrainer - INFO - Found 452 images in Training/3D perovskite with pinholes with extensions: ['.bmp', '.jpg', '.tif']
+2025-04-10 11:00:48,305 - PerovskiteMultiModelTrainer - INFO - Found 452 images in Training/3D-2D mixed perovskite with extensions: ['.bmp', '.jpg', '.tif']
+2025-04-10 11:00:48,326 - PerovskiteMultiModelTrainer - INFO - Found 452 images in Training/3D-2D mixed perovskite with pinholes with extensions: ['.jpg']
+2025-04-10 11:00:48,326 - PerovskiteMultiModelTrainer - INFO - Found 12 images in Validation/3D perovskite with extensions: ['.tif']
+2025-04-10 11:00:48,330 - PerovskiteMultiModelTrainer - INFO - Found 12 images in Validation/3D perovskite with PbI2 excess with extensions: ['.tif']
+2025-04-10 11:00:48,331 - PerovskiteMultiModelTrainer - INFO - Found 12 images in Validation/3D perovskite with pinholes with extensions: ['.tif']
+2025-04-10 11:00:48,331 - PerovskiteMultiModelTrainer - INFO - Found 12 images in Validation/3D-2D mixed perovskite with extensions: ['.tif']
+2025-04-10 11:00:48,331 - PerovskiteMultiModelTrainer - INFO - Found 12 images in Validation/3D-2D mixed perovskite with pinholes with extensions: ['.jpg']
+2025-04-10 11:00:48,331 - PerovskiteMultiModelTrainer - INFO - Found 12 images in Testing/3D perovskite with extensions: ['.tif']
+2025-04-10 11:00:48,338 - PerovskiteMultiModelTrainer - INFO - Found 12 images in Testing/3D perovskite with PbI2 excess with extensions: ['.bmp', '.tif']
+2025-04-10 11:00:48,340 - PerovskiteMultiModelTrainer - INFO - Found 12 images in Testing/3D perovskite with pinholes with extensions: ['.bmp', '.tif']
+2025-04-10 11:00:48,342 - PerovskiteMultiModelTrainer - INFO - Found 12 images in Testing/3D-2D mixed perovskite with extensions: ['.tif']
+2025-04-10 11:00:48,344 - PerovskiteMultiModelTrainer - INFO - Found 12 images in Testing/3D-2D mixed perovskite with pinholes with extensions: ['.jpg', '.tif']
+2025-04-10 11:00:48,344 - PerovskiteMultiModelTrainer - INFO - All dataset directories verified successfully
+2025-04-10 11:00:48,344 - PerovskiteMultiModelTrainer - INFO - Creating data generators...
+2025-04-10 11:00:48,439 - PerovskiteMultiModelTrainer - INFO - Class Indices:
+2025-04-10 11:00:48,439 - PerovskiteMultiModelTrainer - INFO - 0: 3D perovskite
+2025-04-10 11:00:48,439 - PerovskiteMultiModelTrainer - INFO - 1: 3D perovskite with PbI2 excess
+2025-04-10 11:00:48,439 - PerovskiteMultiModelTrainer - INFO - 2: 3D perovskite with pinholes
+2025-04-10 11:00:48,439 - PerovskiteMultiModelTrainer - INFO - 3: 3D-2D mixed perovskite
+2025-04-10 11:00:48,439 - PerovskiteMultiModelTrainer - INFO - 4: 3D-2D mixed perovskite with pinholes
+2025-04-10 11:00:48,439 - PerovskiteMultiModelTrainer - INFO - Dataset Statistics:
+2025-04-10 11:00:48,439 - PerovskiteMultiModelTrainer - INFO - Training samples: 2260
+2025-04-10 11:00:48,439 - PerovskiteMultiModelTrainer - INFO - Validation samples: 60
+2025-04-10 11:00:48,439 - PerovskiteMultiModelTrainer - INFO - Test samples: 60
+2025-04-10 11:00:48,439 - PerovskiteMultiModelTrainer - INFO - Number of classes: 5
+2025-04-10 11:00:48,439 - PerovskiteMultiModelTrainer - INFO - Starting multi-model training...
+2025-04-10 11:00:48,441 - PerovskiteMultiModelTrainer - INFO - 
+==================================================
+2025-04-10 11:00:48,441 - PerovskiteMultiModelTrainer - INFO - Training ResNet50V2
+2025-04-10 11:00:48,441 - PerovskiteMultiModelTrainer - INFO - ==================================================
+2025-04-10 11:00:48,442 - PerovskiteMultiModelTrainer - INFO - Creating ResNet50V2 model...
+2025-04-10 11:00:49,355 - PerovskiteMultiModelTrainer - INFO - Base model layers frozen for transfer learning
+2025-04-10 11:00:49,361 - PerovskiteMultiModelTrainer - INFO - ResNet50V2 model created with 25,668,101 parameters
+2025-04-10 11:00:49,361 - PerovskiteMultiModelTrainer - INFO - Created callbacks for ResNet50V2: ModelCheckpoint, EarlyStopping, ReduceLROnPlateau, TensorBoard
+2025-04-10 11:00:49,361 - PerovskiteMultiModelTrainer - INFO - Starting initial training for ResNet50V2...
+2025-04-10 11:01:49,492 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-04-10 11:04:20,304 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-04-10 11:05:10,965 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-04-10 11:06:02,106 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-04-10 11:09:27,297 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-04-10 11:12:00,963 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-04-10 11:17:10,081 - PerovskiteMultiModelTrainer - INFO - Starting fine-tuning for ResNet50V2...
+2025-04-10 11:50:38,618 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-04-10 12:04:56,844 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-04-10 12:22:25,474 - PerovskiteMultiModelTrainer - INFO - Loading best weights from c:\Users\ASUS\Desktop\New folder (2)\models\ResNet50V2_20250410_110048.h5
+2025-04-10 12:22:26,524 - PerovskiteMultiModelTrainer - INFO - Evaluating ResNet50V2 on test set...
+2025-04-10 12:22:28,313 - PerovskiteMultiModelTrainer - INFO - ResNet50V2 Test accuracy: 0.9667
+2025-04-10 12:22:28,313 - PerovskiteMultiModelTrainer - INFO - ResNet50V2 Test loss: 0.0846
+2025-04-10 12:22:28,313 - PerovskiteMultiModelTrainer - INFO - Generating predictions for ResNet50V2...
+2025-04-10 12:22:31,696 - PerovskiteMultiModelTrainer - INFO - ResNet50V2 training completed in 4903.25 seconds
+2025-04-10 12:22:31,696 - PerovskiteMultiModelTrainer - INFO - Test Accuracy: 0.9667, F1-Score (weighted): 0.9664
+2025-04-10 12:22:31,719 - tensorflow - WARNING - From C:\Users\ASUS\Desktop\New folder (2)\venv\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-04-10 12:22:32,243 - PerovskiteMultiModelTrainer - INFO - 
+==================================================
+2025-04-10 12:22:32,243 - PerovskiteMultiModelTrainer - INFO - Training EfficientNetB3
+2025-04-10 12:22:32,243 - PerovskiteMultiModelTrainer - INFO - ==================================================
+2025-04-10 12:22:32,243 - PerovskiteMultiModelTrainer - INFO - Creating EfficientNetB3 model...
+2025-04-10 12:22:48,713 - PerovskiteMultiModelTrainer - INFO - Base model layers frozen for transfer learning
+2025-04-10 12:22:48,713 - PerovskiteMultiModelTrainer - INFO - EfficientNetB3 model created with 12,362,548 parameters
+2025-04-10 12:22:48,713 - PerovskiteMultiModelTrainer - INFO - Created callbacks for EfficientNetB3: ModelCheckpoint, EarlyStopping, ReduceLROnPlateau, TensorBoard
+2025-04-10 12:22:48,713 - PerovskiteMultiModelTrainer - INFO - Starting initial training for EfficientNetB3...
+2025-04-10 12:23:49,601 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-04-10 12:24:43,637 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-04-10 12:25:40,571 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-04-10 12:27:29,164 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-04-10 12:31:30,100 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-04-10 12:35:49,125 - PerovskiteMultiModelTrainer - INFO - Starting fine-tuning for EfficientNetB3...
+2025-04-10 12:42:28,974 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-04-10 13:09:10,064 - PerovskiteMultiModelTrainer - INFO - Loading best weights from c:\Users\ASUS\Desktop\New folder (2)\models\EfficientNetB3_20250410_110048.h5
+2025-04-10 13:09:11,237 - PerovskiteMultiModelTrainer - INFO - Evaluating EfficientNetB3 on test set...
+2025-04-10 13:09:13,034 - PerovskiteMultiModelTrainer - INFO - EfficientNetB3 Test accuracy: 0.3333
+2025-04-10 13:09:13,034 - PerovskiteMultiModelTrainer - INFO - EfficientNetB3 Test loss: 1.5822
+2025-04-10 13:09:13,035 - PerovskiteMultiModelTrainer - INFO - Generating predictions for EfficientNetB3...
+2025-04-10 13:09:21,052 - PerovskiteMultiModelTrainer - INFO - EfficientNetB3 training completed in 2808.81 seconds
+2025-04-10 13:09:21,052 - PerovskiteMultiModelTrainer - INFO - Test Accuracy: 0.3333, F1-Score (weighted): 0.2974
+2025-04-10 13:09:23,291 - PerovskiteMultiModelTrainer - INFO - 
+==================================================
+2025-04-10 13:09:23,291 - PerovskiteMultiModelTrainer - INFO - Training DenseNet169
+2025-04-10 13:09:23,291 - PerovskiteMultiModelTrainer - INFO - ==================================================
+2025-04-10 13:09:23,291 - PerovskiteMultiModelTrainer - INFO - Creating DenseNet169 model...
+2025-04-10 13:09:43,338 - PerovskiteMultiModelTrainer - INFO - Base model layers frozen for transfer learning
+2025-04-10 13:09:43,354 - PerovskiteMultiModelTrainer - INFO - DenseNet169 model created with 14,352,965 parameters
+2025-04-10 13:09:43,355 - PerovskiteMultiModelTrainer - INFO - Created callbacks for DenseNet169: ModelCheckpoint, EarlyStopping, ReduceLROnPlateau, TensorBoard
+2025-04-10 13:09:43,355 - PerovskiteMultiModelTrainer - INFO - Starting initial training for DenseNet169...
+2025-04-10 13:11:27,488 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-04-10 13:14:27,786 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-04-10 13:18:53,254 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-04-10 13:26:23,040 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-04-10 13:27:54,991 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-04-10 13:30:40,382 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-04-10 13:38:29,766 - PerovskiteMultiModelTrainer - INFO - Starting fine-tuning for DenseNet169...
+2025-04-10 14:42:46,212 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-04-10 18:05:58,108 - PerovskiteMultiModelTrainer - INFO - Loading best weights from c:\Users\ASUS\Desktop\New folder (2)\models\DenseNet169_20250410_110048.h5
+2025-04-10 18:06:00,456 - PerovskiteMultiModelTrainer - INFO - Evaluating DenseNet169 on test set...
+2025-04-10 18:06:04,143 - PerovskiteMultiModelTrainer - INFO - DenseNet169 Test accuracy: 0.9667
+2025-04-10 18:06:04,146 - PerovskiteMultiModelTrainer - INFO - DenseNet169 Test loss: 0.0679
+2025-04-10 18:06:04,146 - PerovskiteMultiModelTrainer - INFO - Generating predictions for DenseNet169...
+2025-04-10 18:06:14,912 - tensorflow - WARNING - 5 out of the last 9 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001D1A3359BD0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-04-10 18:06:21,994 - tensorflow - WARNING - 6 out of the last 12 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001D1A3359BD0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-04-10 18:06:22,562 - PerovskiteMultiModelTrainer - INFO - DenseNet169 training completed in 17819.27 seconds
+2025-04-10 18:06:22,562 - PerovskiteMultiModelTrainer - INFO - Test Accuracy: 0.9667, F1-Score (weighted): 0.9664
+2025-04-10 18:06:25,344 - PerovskiteMultiModelTrainer - INFO - 
+==================================================
+2025-04-10 18:06:25,344 - PerovskiteMultiModelTrainer - INFO - Training MobileNetV3Large
+2025-04-10 18:06:25,344 - PerovskiteMultiModelTrainer - INFO - ==================================================
+2025-04-10 18:06:25,344 - PerovskiteMultiModelTrainer - INFO - Creating MobileNetV3Large model...
+2025-04-10 18:06:30,165 - PerovskiteMultiModelTrainer - INFO - Base model layers frozen for transfer learning
+2025-04-10 18:06:30,178 - PerovskiteMultiModelTrainer - INFO - MobileNetV3Large model created with 3,985,541 parameters
+2025-04-10 18:06:30,178 - PerovskiteMultiModelTrainer - INFO - Created callbacks for MobileNetV3Large: ModelCheckpoint, EarlyStopping, ReduceLROnPlateau, TensorBoard
+2025-04-10 18:06:30,178 - PerovskiteMultiModelTrainer - INFO - Starting initial training for MobileNetV3Large...
+2025-04-10 18:07:07,391 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-04-10 18:07:38,393 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-04-10 18:08:08,809 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-04-10 18:15:09,880 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-04-10 18:15:42,230 - PerovskiteMultiModelTrainer - INFO - Starting fine-tuning for MobileNetV3Large...
+2025-04-10 18:27:24,313 - PerovskiteMultiModelTrainer - INFO - Loading best weights from c:\Users\ASUS\Desktop\New folder (2)\models\MobileNetV3Large_20250410_110048.h5
+2025-04-10 18:27:25,277 - PerovskiteMultiModelTrainer - INFO - Evaluating MobileNetV3Large on test set...
+2025-04-10 18:27:26,244 - PerovskiteMultiModelTrainer - INFO - MobileNetV3Large Test accuracy: 0.2500
+2025-04-10 18:27:26,244 - PerovskiteMultiModelTrainer - INFO - MobileNetV3Large Test loss: 1.6145
+2025-04-10 18:27:26,244 - PerovskiteMultiModelTrainer - INFO - Generating predictions for MobileNetV3Large...
+2025-04-10 18:27:30,050 - PerovskiteMultiModelTrainer - INFO - MobileNetV3Large training completed in 1264.71 seconds
+2025-04-10 18:27:30,050 - PerovskiteMultiModelTrainer - INFO - Test Accuracy: 0.2500, F1-Score (weighted): 0.1709
+2025-04-10 18:27:33,114 - PerovskiteMultiModelTrainer - INFO - Comparing model performance...
+2025-04-10 18:27:41,225 - PerovskiteMultiModelTrainer - INFO - PDF report generated: c:\Users\ASUS\Desktop\New folder (2)\results\perovskite_model_report_20250410_110048.pdf
+2025-04-10 18:27:41,225 - PerovskiteMultiModelTrainer - INFO - 
+==================================================
+2025-04-10 18:27:41,225 - PerovskiteMultiModelTrainer - INFO - MODEL COMPARISON RESULTS
+2025-04-10 18:27:41,225 - PerovskiteMultiModelTrainer - INFO - ==================================================
+2025-04-10 18:27:41,233 - PerovskiteMultiModelTrainer - INFO - 
+Detailed results saved to: c:\Users\ASUS\Desktop\New folder (2)\results\model_comparison_detailed_20250410_110048.csv
+2025-04-10 18:27:41,233 - PerovskiteMultiModelTrainer - INFO - Summary results saved to: c:\Users\ASUS\Desktop\New folder (2)\results\model_comparison_summary_20250410_110048.csv
+2025-04-10 18:27:41,233 - PerovskiteMultiModelTrainer - INFO - Combined performance plot: c:\Users\ASUS\Desktop\New folder (2)\results\combined_performance.png
+2025-04-10 18:27:41,233 - PerovskiteMultiModelTrainer - INFO - PDF report: c:\Users\ASUS\Desktop\New folder (2)\results\perovskite_model_report_20250410_110048.pdf
+2025-04-10 18:27:41,233 - PerovskiteMultiModelTrainer - INFO - 
+Top performing models:
+2025-04-10 18:27:41,233 - PerovskiteMultiModelTrainer - INFO - 1. ResNet50V2: Accuracy = 0.9667, F1 = 0.9664
+2025-04-10 18:27:41,233 - PerovskiteMultiModelTrainer - INFO - 2. DenseNet169: Accuracy = 0.9667, F1 = 0.9664
+2025-04-10 18:27:41,236 - PerovskiteMultiModelTrainer - INFO - 3. EfficientNetB3: Accuracy = 0.3333, F1 = 0.2974
+2025-04-10 18:27:41,236 - PerovskiteMultiModelTrainer - INFO - ==================================================
+2025-04-10 18:27:41,237 - PerovskiteMultiModelTrainer - INFO - Best model: ResNet50V2
+2025-04-10 18:27:41,237 - PerovskiteMultiModelTrainer - INFO - Model saved at: c:\Users\ASUS\Desktop\New folder (2)\models\ResNet50V2_20250410_110048.h5
+2025-04-10 18:27:41,239 - PerovskiteMultiModelTrainer - INFO - ==================================================
+2025-04-10 18:27:41,241 - PerovskiteMultiModelTrainer - INFO - Total execution time: 7h 26m 53s
+2025-04-10 18:27:41,241 - PerovskiteMultiModelTrainer - INFO - Multi-model training completed successfully.

@@ -2,7 +2,6 @@
 
 This repository contains the implementation of a comprehensive multi-model deep learning framework for automated defect detection in perovskite solar cell (PSC) scanning electron microscopy (SEM) images. The project benchmarks nine state-of-the-art architectures for classifying five distinct defect types in PSC materials.
 
-<img src="https://github.com/Sahilsonii/images/blob/main/perovskite%20solar%20cell/Test%20accuracy.pdf">
 
 ## 📋 Project Overview
 
@@ -105,14 +104,14 @@ The code includes comprehensive data augmentation pipelines to address dataset l
 ### Training Models
 
 ```bash
-# To train ResNet50V2
-python train_resnet.py
+# To train multi models
+python multi model training 2.py
 
-# To train DenseNet169
-python train_densenet.py
+# To train multi models
+python multi model training.py
 
 # To train YOLOv8
-python train_yolov8.py
+pretrain_model.ipynb
 
 # For other models
 python train_model.py --model [model_name]
@@ -121,42 +120,13 @@ python train_model.py --model [model_name]
 ### Data Augmentation
 
 ```bash
-python augment_data.py --input_dir dataset/train --output_dir dataset/augmented
-```
-
-### Evaluation
-
-```bash
-python evaluate.py --model [path_to_model] --test_dir dataset/test
+python data augmentation.py
 ```
 
 ### Running the Web App
 
 ```bash
-streamlit run app.py
-```
-
-## 📁 Repository Structure
-
-```
-.
-├── README.md
-├── requirements.txt
-├── models/
-│   ├── train_resnet.py
-│   ├── train_densenet.py
-│   ├── train_yolov8.py
-│   └── train_model.py
-├── utils/
-│   ├── data_loader.py
-│   ├── augmentation.py
-│   └── evaluation.py
-├── app/
-│   ├── app.py
-│   └── components/
-└── dataset/
-    ├── dataset.rar  # Extract this to use the dataset
-    └── README_dataset.md
+streamlit run streamlit_app.py
 ```
 
 ## ⚠️ Model Availability
@@ -164,8 +134,6 @@ streamlit run app.py
 Due to GitHub storage limitations, pre-trained models are not included in this repository. You can:
 
 1. Train the models yourself using the provided code
-2. Request the models by creating an issue in this repository
-3. Access a subset of the models via [Google Drive](https://drive.google.com/folder/link) (if available)
 
 ## 📊 Results
 

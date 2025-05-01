@@ -10,7 +10,7 @@ Perovskite solar cells represent a promising frontier in photovoltaic technology
 ### Defect Categories
 
 The models classify SEM images into five categories:
-1. Pure 3D perovskite
+1. 3D perovskite
 2. 3D perovskite with PbI₂ excess
 3. 3D perovskite with pinholes
 4. 3D-2D mixed perovskite

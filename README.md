@@ -2,7 +2,7 @@
 
 This repository contains the implementation of a comprehensive multi-model deep learning framework for automated defect detection in perovskite solar cell (PSC) scanning electron microscopy (SEM) images. The project benchmarks nine state-of-the-art architectures for classifying five distinct defect types in PSC materials.
 
-![PSC Defect Detection](https://raw.githubusercontent.com/username/repository/main/images/sample_defects.png)
+<img src="https://github.com/Sahilsonii/images/blob/main/perovskite%20solar%20cell/Test%20accuracy.pdf"/>
 
 ## 📋 Project Overview
 

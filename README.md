@@ -113,8 +113,6 @@ python multi model training.py
 # To train YOLOv8
 pretrain_model.ipynb
 
-# For other models
-python train_model.py --model [model_name]
 ```
 
 ### Data Augmentation

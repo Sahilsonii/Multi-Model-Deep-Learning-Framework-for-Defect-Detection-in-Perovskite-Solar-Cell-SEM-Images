@@ -180,10 +180,6 @@ The primary limitation of this work is the inherent difficulty in collecting lar
 
 These constraints make collecting the 50,000+ images typically recommended for deep learning prohibitively expensive and time-consuming for most research laboratories.
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## 📧 Contact
 
 For questions or collaboration opportunities, please open an issue in this repository or contact [sahilsonii369@gmail.com].
